@@ -1,16 +1,11 @@
 public class Tiger extends Animal {
 
-    private String name;
-    private String favoriteFood;
-
     public Tiger(String name) {
         super(name, "meat");
-
     }
 
     public void sleep() {
         System.out.println(this.name + " sleeps for 8 hours");
-
     }
 
     public void eat(String food) {
